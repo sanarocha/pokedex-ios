@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93827A8F287F713A005C1368 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93827A8E287F713A005C1368 /* PokemonCollectionViewCell.swift */; };
+		93827A92287F7188005C1368 /* PokemonCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93827A91287F7188005C1368 /* PokemonCellModel.swift */; };
+		93827A95287F72AA005C1368 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 93827A94287F72A9005C1368 /* SnapKit */; };
+		93827A96287F7526005C1368 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E9DE25287F65A600124574 /* Poppins-Bold.ttf */; };
+		93827A97287F7528005C1368 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93E9DE26287F65A600124574 /* Poppins-Regular.ttf */; };
 		93E9DE0E287F5BA200124574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE0D287F5BA200124574 /* AppDelegate.swift */; };
 		93E9DE10287F5BA200124574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE0F287F5BA200124574 /* SceneDelegate.swift */; };
 		93E9DE12287F5BA200124574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE11287F5BA200124574 /* ViewController.swift */; };
@@ -14,9 +19,13 @@
 		93E9DE1A287F5BA400124574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E9DE18287F5BA400124574 /* LaunchScreen.storyboard */; };
 		93E9DE23287F653100124574 /* UIColors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE22287F653100124574 /* UIColors+Extension.swift */; };
 		93E9DE28287F65B700124574 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE27287F65B700124574 /* UIFont+Extension.swift */; };
+		93E9DE2B287F6B8300124574 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE2A287F6B8300124574 /* HomeViewController.swift */; };
+		93E9DE2D287F6B9200124574 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E9DE2C287F6B9200124574 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93827A8E287F713A005C1368 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		93827A91287F7188005C1368 /* PokemonCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCellModel.swift; sourceTree = "<group>"; };
 		93E9DE0A287F5BA200124574 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93E9DE0D287F5BA200124574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93E9DE0F287F5BA200124574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +37,8 @@
 		93E9DE25287F65A600124574 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		93E9DE26287F65A600124574 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		93E9DE27287F65B700124574 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		93E9DE2A287F6B8300124574 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		93E9DE2C287F6B9200124574 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,12 +46,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93827A95287F72AA005C1368 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93827A90287F7174005C1368 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93827A91287F7188005C1368 /* PokemonCellModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		93E9DE01287F5BA200124574 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +80,9 @@
 		93E9DE0C287F5BA200124574 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				93827A90287F7174005C1368 /* Models */,
+				93E9DE2E287F700E00124574 /* Components */,
+				93E9DE29287F6AFB00124574 /* Home */,
 				93E9DE21287F651700124574 /* Sources */,
 				93E9DE0D287F5BA200124574 /* AppDelegate.swift */,
 				93E9DE0F287F5BA200124574 /* SceneDelegate.swift */,
@@ -90,6 +113,23 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		93E9DE29287F6AFB00124574 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				93E9DE2A287F6B8300124574 /* HomeViewController.swift */,
+				93E9DE2C287F6B9200124574 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		93E9DE2E287F700E00124574 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				93827A8E287F713A005C1368 /* PokemonCollectionViewCell.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +146,9 @@
 			dependencies = (
 			);
 			name = pokedex;
+			packageProductDependencies = (
+				93827A94287F72A9005C1368 /* SnapKit */,
+			);
 			productName = pokedex;
 			productReference = 93E9DE0A287F5BA200124574 /* pokedex.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,9 @@
 				Base,
 			);
 			mainGroup = 93E9DE01287F5BA200124574;
+			packageReferences = (
+				93827A93287F72A9005C1368 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 93E9DE0B287F5BA200124574 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -149,7 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E9DE1A287F5BA400124574 /* LaunchScreen.storyboard in Resources */,
+				93827A96287F7526005C1368 /* Poppins-Bold.ttf in Resources */,
 				93E9DE17287F5BA400124574 /* Assets.xcassets in Resources */,
+				93827A97287F7528005C1368 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,10 +209,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E9DE12287F5BA200124574 /* ViewController.swift in Sources */,
+				93E9DE2D287F6B9200124574 /* HomeView.swift in Sources */,
+				93827A8F287F713A005C1368 /* PokemonCollectionViewCell.swift in Sources */,
 				93E9DE0E287F5BA200124574 /* AppDelegate.swift in Sources */,
+				93827A92287F7188005C1368 /* PokemonCellModel.swift in Sources */,
 				93E9DE10287F5BA200124574 /* SceneDelegate.swift in Sources */,
 				93E9DE28287F65B700124574 /* UIFont+Extension.swift in Sources */,
 				93E9DE23287F653100124574 /* UIColors+Extension.swift in Sources */,
+				93E9DE2B287F6B8300124574 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93827A93287F72A9005C1368 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93827A94287F72A9005C1368 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93827A93287F72A9005C1368 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 93E9DE02287F5BA200124574 /* Project object */;
 }

@@ -19,7 +19,7 @@ private extension UIFont {
     }
 
     class func poppinsBold(ofSize size: CGFloat) -> UIFont {
-        guard let poppinsBold = UIFont(name: "Poppins-Light", size: size) else {
+        guard let poppinsBold = UIFont(name: "Poppins-Bold", size: size) else {
             preconditionFailure(
                 "Unable to access font"
             )
