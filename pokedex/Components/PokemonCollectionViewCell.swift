@@ -52,6 +52,13 @@ final class PokemonCollectionViewCell: UICollectionViewCell {
 
 // MARK: - Layout
 extension PokemonCollectionViewCell {
+    
+    func setupPokemon(with pokemon: PokemonCellModel) {
+        self.idLabel.text = pokemon.id
+        self.avatarImageView.image = pokemon.image
+        self.nameLabel.text = pokemon.name
+        self.backgroundColor = pokemon.color
+    }
 
     private func setupLayout() {
         self.layer.borderColor = UIColor.fire.cgColor

@@ -9,7 +9,7 @@ import UIKit
 
 struct PokemonCellModel {
     let id: String
-    let image: UIImageView
+    let image: UIImage
     let name: String
     let color: UIColor
 }
