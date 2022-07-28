@@ -9,13 +9,13 @@ import UIKit
 
 final class HomeViewController: UIViewController {
 
-    private let homeView = HomeView()
+    private lazy var  homeView: HomeView = {
+        let view = HomeView()
+        view.delegate = self
+        return view
+    }()
 
     // MARK: - Life Cycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-    
     override func loadView() {
         self.view = homeView
     }
@@ -28,5 +28,14 @@ final class HomeViewController: UIViewController {
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         navigationController?.navigationBar.isHidden = false
+    }
+}
+
+// MARK: - View Delegate
+extension HomeViewController: HomeViewDelegate {
+    
+    func didSelectPokemonCell() {
+        let viewController = PokemonViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
 }

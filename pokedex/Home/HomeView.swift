@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol HomeViewDelegate: AnyObject {
+    func didSelectPokemonCell()
+}
+
 final class HomeView: UIView {
     
     private lazy var flowLayout: UICollectionViewFlowLayout = {
@@ -37,6 +41,8 @@ final class HomeView: UIView {
         return view
     }()
     
+    weak var delegate: HomeViewDelegate?
+    
     // MARK: - Init
     init() {
         super.init(frame: .zero)
@@ -64,7 +70,7 @@ extension HomeView: UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         let headerView = collectionView.dequeueReusableSupplementaryView(ofKind:
-                                                                            UICollectionView.elementKindSectionHeader,
+                                                                        UICollectionView.elementKindSectionHeader,
                                                                          withReuseIdentifier: "pokedexHeaderView",
                                                                          for: indexPath)
         return headerView
@@ -72,7 +78,11 @@ extension HomeView: UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSize(width: collectionView.layer.bounds.width, height: 120) //add your height here
+        return CGSize(width: collectionView.layer.bounds.width, height: 120)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        delegate?.didSelectPokemonCell()
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
