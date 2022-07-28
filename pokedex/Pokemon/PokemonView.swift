@@ -19,7 +19,7 @@ final class PokemonView: UIView {
     
     private let idLabel: UILabel = {
         let label = UILabel()
-        label.font = .regular(ofSize: 12)
+        label.font = .bold(ofSize: 12)
         label.textColor = .white
         label.text = "#000"
         return label
@@ -44,6 +44,15 @@ final class PokemonView: UIView {
         view.clipsToBounds = true
         return view
     }()
+    
+    private let typeStackView: UIStackView = {
+        let stackView = UIStackView()
+        stackView.spacing = 16
+        stackView.alignment = .center
+        return stackView
+    }()
+    
+    var types = ["Type"]
 
     // MARK: - Init
     init() {
@@ -57,7 +66,9 @@ final class PokemonView: UIView {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         updateOpaquePokeballSize()
+        updateTypeStackView()
     }
 }
 
@@ -73,6 +84,13 @@ extension PokemonView {
             make.size.equalTo(adaptiveSize)
         }
     }
+    
+    private func updateTypeStackView() {
+        self.types.forEach { type in
+            let typeView = TypeView()
+            self.typeStackView.addArrangedSubview(typeView)
+        }
+    }
 }
 
 // MARK: - Layout
@@ -85,6 +103,7 @@ extension PokemonView {
         setupOpaquePokeballImageView()
         setupContentView()
         setupPokemonImageView()
+        setupTypeStackView()
     }
     
     private func setupNameLabel() {
@@ -131,6 +150,15 @@ extension PokemonView {
             make.bottom.equalTo(contentView.snp.top).offset(56)
             make.centerX.equalTo(contentView)
             make.size.equalTo(200)
+        }
+    }
+    
+    private func setupTypeStackView() {
+        self.contentView.addSubview(typeStackView)
+    
+        typeStackView.snp.makeConstraints { make in
+            make.centerX.equalToSuperview()
+            make.top.equalToSuperview().offset(62)
         }
     }
 }
