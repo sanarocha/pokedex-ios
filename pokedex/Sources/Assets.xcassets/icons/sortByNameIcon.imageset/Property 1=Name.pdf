@@ -1,0 +1,363 @@
+%PDF-1.7
+
+1 0 obj
+  << /Type /XObject
+     /Length 2 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << >>
+     /BBox [ 0.000000 0.000000 20.000000 32.000000 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 11.000000 7.958160 cm
+0.129412 0.129412 0.129412 scn
+9.017330 4.933612 m
+8.764830 5.186148 l
+8.597471 5.353505 8.326114 5.353505 8.158721 5.186148 c
+5.178569 2.188716 l
+5.178569 15.613268 l
+5.178569 15.849947 4.986675 16.041840 4.749996 16.041840 c
+4.392852 16.041840 l
+4.156173 16.041840 3.964279 15.849947 3.964279 15.613268 c
+3.964279 2.188716 l
+0.984128 5.186148 l
+0.816770 5.353505 0.545412 5.353505 0.378019 5.186148 c
+0.125518 4.933612 l
+-0.041839 4.766254 -0.041839 4.494897 0.125518 4.327539 c
+4.268387 0.167356 l
+4.435745 0.000000 4.707103 0.000000 4.874496 0.167356 c
+9.017365 4.327539 l
+9.184723 4.494897 9.184724 4.766254 9.017330 4.933612 c
+9.017330 4.933612 l
+h
+f
+n
+Q
+
+endstream
+endobj
+
+2 0 obj
+  750
+endobj
+
+3 0 obj
+  << /Type /XObject
+     /Length 4 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << >>
+     /BBox [ 0.000000 0.000000 20.000000 32.000000 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 11.000000 8.000000 cm
+0.000000 0.000000 0.000000 scn
+0.000000 16.000000 m
+9.000000 16.000000 l
+9.000000 0.000000 l
+0.000000 0.000000 l
+0.000000 16.000000 l
+h
+f
+n
+Q
+
+endstream
+endobj
+
+4 0 obj
+  231
+endobj
+
+5 0 obj
+  << /Length 6 0 R >>
+stream
+0.576000 0 0.050000 0.000000 0.526000 0.748000 d1
+
+endstream
+endobj
+
+6 0 obj
+  50
+endobj
+
+7 0 obj
+  << /Length 8 0 R >>
+stream
+0.716000 0 0.026000 0.000000 0.691000 0.725000 d1
+
+endstream
+endobj
+
+8 0 obj
+  50
+endobj
+
+9 0 obj
+  [ 0.576000 0.716000 ]
+endobj
+
+10 0 obj
+  << /Length 11 0 R >>
+stream
+/CIDInit /ProcSet findresource begin
+12 dict begin
+begincmap
+/CIDSystemInfo
+<< /Registry (FigmaPDF)
+   /Ordering (FigmaPDF)
+   /Supplement 0
+>> def
+/CMapName /A-B-C def
+/CMapType 2 def
+1 begincodespacerange
+<00> <FF>
+endcodespacerange
+1 beginbfchar
+<00> <005A>
+endbfchar
+1 beginbfchar
+<01> <0041000A>
+endbfchar
+endcmap
+CMapName currentdict /CMap defineresource pop
+end
+end
+endstream
+endobj
+
+11 0 obj
+  372
+endobj
+
+12 0 obj
+  << /Subtype /Type3
+     /CharProcs << /C0 5 0 R
+                   /C1 7 0 R
+                >>
+     /Encoding << /Type /Encoding
+                  /Differences [ 0 /C0 /C1 ]
+               >>
+     /Widths 9 0 R
+     /FontBBox [ 0.000000 0.000000 0.000000 0.000000 ]
+     /FontMatrix [ 1.000000 0.000000 0.000000 1.000000 0.000000 0.000000 ]
+     /Type /Font
+     /ToUnicode 10 0 R
+     /FirstChar 0
+     /LastChar 1
+     /Resources << >>
+  >>
+endobj
+
+13 0 obj
+  << /Type /XObject
+     /Length 14 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << /XObject << /X1 1 0 R >>
+                   /ExtGState << /E1 << /SMask << /Type /Mask
+                                                  /G 3 0 R
+                                                  /S /Alpha
+                                               >>
+                                        /Type /ExtGState
+                                     >> >>
+                   /Font << /F1 12 0 R >>
+                >>
+     /BBox [ 0.000000 0.000000 20.000000 32.000000 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 10.407990 cm
+0.129412 0.129412 0.129412 scn
+0.136719 6.592010 m
+h
+4.112719 7.656011 m
+1.888719 7.656011 l
+1.520719 6.592010 l
+0.344719 6.592010 l
+2.352719 12.184011 l
+3.656719 12.184011 l
+5.664719 6.592010 l
+4.480719 6.592010 l
+4.112719 7.656011 l
+h
+3.808719 8.552011 m
+3.000719 10.888010 l
+2.192719 8.552011 l
+3.808719 8.552011 l
+h
+0.695312 -1.407990 m
+h
+2.391313 -0.463989 m
+4.903313 -0.463989 l
+4.903313 -1.407990 l
+1.095312 -1.407990 l
+1.095312 -0.543989 l
+3.591313 3.232011 l
+1.095312 3.232011 l
+1.095312 4.176010 l
+4.903313 4.176010 l
+4.903313 3.312011 l
+2.391313 -0.463989 l
+h
+f
+n
+Q
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 10.407990 cm
+BT
+8.000000 0.000000 0.000000 8.000000 0.136719 6.592010 Tm
+/F1 1.000000 Tf
+[ (\001) ] TJ
+8.000000 0.000000 0.000000 8.000000 0.695312 -1.407990 Tm
+/F1 1.000000 Tf
+[ (\000) ] TJ
+ET
+Q
+q
+/E1 gs
+/X1 Do
+Q
+
+endstream
+endobj
+
+14 0 obj
+  928
+endobj
+
+15 0 obj
+  << /Type /XObject
+     /Length 16 0 R
+     /Group << /Type /Group
+               /S /Transparency
+            >>
+     /Subtype /Form
+     /Resources << >>
+     /BBox [ 0.000000 0.000000 20.000000 32.000000 ]
+  >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 0.000000 cm
+0.000000 0.000000 0.000000 scn
+0.000000 24.000000 m
+0.000000 28.418278 3.581722 32.000000 8.000000 32.000000 c
+12.000000 32.000000 l
+16.418278 32.000000 20.000000 28.418278 20.000000 24.000000 c
+20.000000 8.000000 l
+20.000000 3.581722 16.418278 0.000000 12.000000 0.000000 c
+8.000000 0.000000 l
+3.581722 0.000000 0.000000 3.581722 0.000000 8.000000 c
+0.000000 24.000000 l
+h
+f
+n
+Q
+
+endstream
+endobj
+
+16 0 obj
+  468
+endobj
+
+17 0 obj
+  << /XObject << /X1 13 0 R >>
+     /ExtGState << /E1 << /SMask << /Type /Mask
+                                    /G 15 0 R
+                                    /S /Alpha
+                                 >>
+                          /Type /ExtGState
+                       >> >>
+  >>
+endobj
+
+18 0 obj
+  << /Length 19 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+/E1 gs
+/X1 Do
+Q
+
+endstream
+endobj
+
+19 0 obj
+  46
+endobj
+
+20 0 obj
+  << /Annots []
+     /Type /Page
+     /MediaBox [ 0.000000 0.000000 20.000000 32.000000 ]
+     /Resources 17 0 R
+     /Contents 18 0 R
+     /Parent 21 0 R
+  >>
+endobj
+
+21 0 obj
+  << /Kids [ 20 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+22 0 obj
+  << /Pages 21 0 R
+     /Type /Catalog
+  >>
+endobj
+
+xref
+0 23
+0000000000 65535 f
+0000000010 00000 n
+0000001008 00000 n
+0000001030 00000 n
+0000001509 00000 n
+0000001531 00000 n
+0000001637 00000 n
+0000001658 00000 n
+0000001764 00000 n
+0000001785 00000 n
+0000001825 00000 n
+0000002255 00000 n
+0000002278 00000 n
+0000002741 00000 n
+0000004333 00000 n
+0000004356 00000 n
+0000005074 00000 n
+0000005097 00000 n
+0000005398 00000 n
+0000005502 00000 n
+0000005524 00000 n
+0000005701 00000 n
+0000005777 00000 n
+trailer
+<< /ID [ (some) (id) ]
+   /Root 22 0 R
+   /Size 23
+>>
+startxref
+5838
+%%EOF

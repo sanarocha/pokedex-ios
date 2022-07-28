@@ -22,7 +22,7 @@ final class PokemonCollectionViewCell: UICollectionViewCell {
     private let avatarImageView: UIImageView = {
         let image = UIImageView()
         image.image = UIImage(named: "charmanderImage")
-        image.contentMode = .scaleToFill
+        image.contentMode = .scaleAspectFit
         return image
     }()
     
@@ -57,20 +57,32 @@ extension PokemonCollectionViewCell {
         self.layer.borderColor = UIColor.fire.cgColor
         self.layer.borderWidth = 1
         self.layer.cornerRadius = 8
+        setupIdLabel()
+        setupAvatarImageView()
+        setupNameLabel()        
+    }
+    
+    private func setupIdLabel() {
         self.contentView.addSubview(idLabel)
-        self.contentView.addSubview(avatarImageView)
-        self.contentView.addSubview(nameLabel)
         
         idLabel.snp.makeConstraints { make in
             make.top.equalToSuperview().offset(4)
             make.leading.trailing.equalToSuperview().inset(8)
         }
+    }
+    
+    private func setupAvatarImageView() {
+        self.contentView.addSubview(avatarImageView)
         
         avatarImageView.snp.makeConstraints { make in
             make.top.equalTo(idLabel.snp.bottom).offset(4)
-            make.size.equalTo(72)
+            make.size.lessThanOrEqualTo(72)
             make.leading.trailing.equalToSuperview().inset(16)
         }
+    }
+    
+    private func setupNameLabel() {
+        self.contentView.addSubview(nameLabel)
         
         nameLabel.snp.makeConstraints { make in
             make.top.equalTo(avatarImageView.snp.bottom).offset(4)
