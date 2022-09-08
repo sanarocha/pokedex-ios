@@ -13,7 +13,7 @@ final class TypeView: UIView {
         let label = UILabel()
         label.layer.cornerRadius = 10
         label.backgroundColor = .mediumGray
-        label.font = .bold(ofSize: 10)
+        label.font = .bold(ofSize: 14)
         label.textColor = .white
         label.text = "Type"
         return label
